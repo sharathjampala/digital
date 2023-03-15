@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: 100% 150vh;
+      
+}
+#maincontainer{
+   
+    width: 600px;
+    height: 700px;
+    background-color: rgba(0, 255, 255, 0.241);
+    clip-path: polygon(0 0, 0% 100%, 100% 46%);
+
+
+}
+
+#Time{
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 60px;
+    font-family: 'Sassy Frass', cursive;
+    align-items: center;
+}
+#Date{
+    position: absolute;
+    left: 30px;
+    top: 240px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 60px;
+    font-family: 'Sassy Frass', cursive;
+    align-items: center;
+}
+#Day{
+    position: absolute;
+    left: 30px;
+    top: 290px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    font-size: 60px;
+    font-family: 'Sassy Frass', cursive;
+    align-items: center;
+
+}
+#greet{
+    width: 150px;
+    height: 80px;
+    background-color: teal;
+    position: absolute;
+    bottom: 380px;
+    left: 600px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#close{
+    color: white;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+   
+}
+#textgreet{
+    color: white;
+    font-size: 5px;
+}
